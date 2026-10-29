@@ -16,7 +16,6 @@ public class DrzavaAp {
         DataSource dataSource = createDataSource();
 
         try (Connection connection = dataSource.getConnection()) {
-            System.out.println("spojeno");
             while (odabir != 5) {
                 System.out.println("1 - Nova država");
                 System.out.println("2 - Izmjena postojeće države");
